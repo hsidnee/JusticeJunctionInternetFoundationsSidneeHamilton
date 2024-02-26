@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #13073A;
+  /* background-image: linear-gradient(to bottom, #251655, #13073A); */
+  background-repeat: no-repeat;
+  color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 3em;
+  background-color: #030108;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  border-bottom: 2px  solid #8f7ec5;
+}
+h1 {
+  font-size: 5em;
+}
+h2 {
+  background-color: #251655;
+  text-align: center;
+  padding: 1em 2em;
+  text-shadow: 0 0 6px #030108;
+  background-image: linear-gradient(to right, #251655, #8f7ec5);
+  color: #ffffff;
+}
+
+dl {
+  margin-top: 20px;
+
+}
+
+nav a {
+  color: #ffed00;
+}
+
+nav a:hover {
+  color: #ff8800;
+}
+dt {
+  color: #8f7ec5;
+  background-color: #04000F;
+}
+header {
+  text-align: center;
+  background-color: #030108;
+}
+#homehero {
+  background-image: url(dystopian\ city.jpeg);
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 2700px;
+}
+
+.headerlogo {
+  width: 400px;
+  padding: 0;
+}
+ul {
+ padding: 20px;
+ 
+}
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+  /* background-color: #3c2197; */
+  margin: auto;
+  width: 70%;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 0 0 3px #333333;
+}
+.info {
+  background-color: #ffffff;
+}
+footer {
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  padding: 1.3em;
+  background-color: #8f7ec5;
+}
+content {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: space-between;
+}
+
+.aboutpara {
+  font-size: 3em;
+  text-align: center;
+  padding: .5em;
+  color: #ffffff;
+  
+}
+.contactcard {
+  background-color: #ffffff;
+  margin: auto;
+}
+.card {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: #ffffff;
+  gap: 2em;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardtext {
+  font-size: 1.6em;
+  color: #030108;
+  text-align: center;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+  padding-bottom: 2em;
+
+}
+.shield {
+  margin: auto;
+  width: 150px;
+  justify-content: center;
+}
+
+.contactcard {
+  border: 1px solid #0000;
+  width: 600px;
+  display: flex;
+  padding: 30px;
+  line-height: 50px;
+}
+#hours{
+  /* background-color: #ffffff; */
+  margin: auto;
+  width: 400px;
+  margin-top: 60px;
+
+}
+.hourstitle{
+  color: #ffffff;
+}
+
+table {
+  border: 2px solid #3399cc;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+td, 
+th {
+  padding: 0.5em;
+  border: 2px solid #000;
+}
+
+td {
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  content {
+    flex-direction: column;
+  }
+}
